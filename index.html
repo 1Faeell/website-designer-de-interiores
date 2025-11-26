@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+
+    <link
+      rel="shortcut icon"
+      href="assets/favicon/favicon.ico"
+      type="image/x-icon"
+    />
+
+    <title>Atelier Luna | Designer de Interiores</title>
+
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">ATELIER LUNA</div>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#sobre">SOBRE</a></li>
+          <li><a href="#projetos">PROJETOS</a></li>
+          <li><a href="#servicos">SERVIÇOS</a></li>
+          <li><a href="#contato">CONTATO</a></li>
+        </ul>
+        <div class="menu-toggle" id="menuToggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </header>
+
+    <section class="hero" id="home">
+      <div class="floating-shape shape1"></div>
+      <div class="floating-shape shape2"></div>
+      <div class="hero-content">
+        <h1>DESIGN ATEMPORAL</h1>
+        <p>Transformando espaços em experiências únicas</p>
+        <a href="#projetos" class="cta-button">EXPLORE PROJETOS</a>
+      </div>
+    </section>
+
+    <section class="about" id="sobre">
+      <div class="about-content">
+        <h2>Sobre mim</h2>
+        <p>
+          Com mais de 15 anos de experiência, crio ambientes que refletem a
+          personalidade e o estilo de vida dos meus clientes. Cada projeto é uma
+          jornada única de descoberta e criação.
+        </p>
+        <p>
+          Minha abordagem combina funcionalidade, estética e sustentabilidade
+          para entregar espaçosque não apenas impressionam visualmente, mas
+          também melhoram a qualidade de vida.
+        </p>
+        <p>
+          Acredito que o design de interiores vai além da beleza: é sobre criar
+          conexões emocionais com os espaços que habitamos.
+        </p>
+        <a href="#contato" class="cta-button" style="margin-top: 1rem"
+          >AGENDE UMA CONSULTA</a
+        >
+      </div>
+      <div class="about-image">
+        <div class="about-decoration-1"></div>
+        <img src="assets/images/luna.png" alt="Designer trabalhando" />
+        <div class="about-decoration-2"></div>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div class="stats-container">
+        <div class="stat-item">
+          <span class="stat-number" data-target="350">0</span>
+          <span class="stat-label">Projetos Concluídos</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="15">0</span>
+          <span class="stat-label">Anos de Experiência</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="98">0</span>
+          <span class="stat-label">% Satisfação</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="28">0</span>
+          <span class="stat-label">Prêmios Conquistados</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projetos">
+      <div class="projects-header">
+        <h2>Projetos Realizados</h2>
+        <p>Uma seleção dos nossos trabalhos mais emblemáticos</p>
+      </div>
+      <div class="projects-grid" id="projectsGrid"></div>
+    </section>
+
+    <section class="cta-banner">
+      <div class="cta-banner-content">
+        <h2>Transforme Seu Espaço Hoje</h2>
+        <p>
+          Agende uma consultoria gratuita e descubra como podemos criar o
+          ambiente dos seus sonhos
+        </p>
+        <a href="#contato" class="cta-banner-button"
+          >QUERO MINHA CONSULTORIA GRÁTIS</a
+        >
+      </div>
+    </section>
+
+    <section class="services" id="servicos">
+      <div class="services-header">
+        <h2>Nossos Serviços</h2>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <span class="service-number">01</span>
+          <div class="service-icon">✦</div>
+          <h3>Consultoria</h3>
+          <p>
+            Análise completa do espaço com orientações personalizadas sobre
+            layout, cores, materiais e iluminação.
+          </p>
+        </div>
+        <div class="service-card">
+          <span class="service-number">02</span>
+          <div class="service-icon">◲</div>
+          <h3>Projeto Completo</h3>
+          <p>
+            Desenvolvimento integral do projeto, incluindo plantas, 3D,
+            especificações técnicas e acompanhamento de obra.
+          </p>
+        </div>
+        <div class="service-card">
+          <span class="service-number">03</span>
+          <div class="service-icon">▣</div>
+          <h3>Decoração</h3>
+          <p>
+            Seleção de mobiliário, objetos decorativos, arte e acabamentos para
+            criar ambientes únicos e harmoniosos.
+          </p>
+        </div>
+        <div class="service-card">
+          <span class="service-number">04</span>
+          <div class="service-icon">✧</div>
+          <h3>Retrofit</h3>
+          <p>
+            Modernização e revitalização de espaços existentes, respeitando
+            características originais e agregando valor.
+          </p>
+        </div>
+        <div class="service-card">
+          <span class="service-number">05</span>
+          <div class="service-icon">◑</div>
+          <h3>Iluminação</h3>
+          <p>
+            Projeto luminotécnico completo, criando atmosferas e destacando
+            elementos arquitetônicos.
+          </p>
+        </div>
+        <div class="service-card">
+          <span class="service-number">06</span>
+          <div class="service-icon">▱</div>
+          <h3>Ambientes Corporativos</h3>
+          <p>
+            Design de escritórios e espaços comerciais que refletem a identidade
+            da marca e otimizam produtividade.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials">
+      <div class="testimonials-header">
+        <h2>O Que Dizem Nossos Clientes</h2>
+        <p>Depoimentos reais de quem confiou em nosso trabalho</p>
+      </div>
+      <div class="testimonials-wrapper">
+        <div class="testimonials-container">
+          <div class="testimonial-card">
+            <div class="testimonial-stars">★★★★★</div>
+            <div class="testimonial-content">
+              <p class="testimonial-text">
+                O trabalho ficou simplesmente perfeito! A equipe entendeu
+                exatamente o que queríamos e superou nossas expectativas. Nossa
+                casa está irreconhecível e muito mais aconchegante.
+              </p>
+              <div class="testimonial-author">
+                <img
+                  src="https://i.pravatar.cc/150?img=1"
+                  alt="Cliente"
+                  class="author-image"
+                />
+                <div class="author-info">
+                  <h4>Mariana Silva</h4>
+                  <p>Residência em Alphaville</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-stars">★★★★★</div>
+            <div class="testimonial-content">
+              <p class="testimonial-text">
+                Profissionalismo impecável do início ao fim. O projeto foi
+                entregue no prazo e dentro do orçamento. Recomendo de olhos
+                fechados para quem busca qualidade e bom gosto.
+              </p>
+              <div class="testimonial-author">
+                <img
+                  src="https://i.pravatar.cc/150?img=13"
+                  alt="Cliente"
+                  class="author-image"
+                />
+                <div class="author-info">
+                  <h4>Ricardo Mendes</h4>
+                  <p>Apartamento Jardins</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-stars">★★★★★</div>
+            <div class="testimonial-content">
+              <p class="testimonial-text">
+                Transformaram nosso escritório em um espaço incrível! A
+                produtividade da equipe aumentou e recebemos elogios de todos os
+                clientes que nos visitam. Valeu cada centavo!
+              </p>
+              <div class="testimonial-author">
+                <img
+                  src="https://i.pravatar.cc/150?img=32"
+                  alt="Cliente"
+                  class="author-image"
+                />
+                <div class="author-info">
+                  <h4>Paula Costa</h4>
+                  <p>Escritório Corporativo</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mobile Slider -->
+        <div class="testimonials-slider">
+          <div class="slider-track" id="sliderTrack">
+            <div class="testimonial-card">
+              <div class="testimonial-stars">★★★★★</div>
+              <div class="testimonial-content">
+                <p class="testimonial-text">
+                  O trabalho ficou simplesmente perfeito! A equipe entendeu
+                  exatamente o que queríamos e superou nossas expectativas.
+                  Nossa casa está irreconhecível e muito mais aconchegante.
+                </p>
+                <div class="testimonial-author">
+                  <img
+                    src="https://i.pravatar.cc/150?img=1"
+                    alt="Cliente"
+                    class="author-image"
+                  />
+                  <div class="author-info">
+                    <h4>Mariana Silva</h4>
+                    <p>Residência em Alphaville</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-card">
+              <div class="testimonial-stars">★★★★★</div>
+              <div class="testimonial-content">
+                <p class="testimonial-text">
+                  Profissionalismo impecável do início ao fim. O projeto foi
+                  entregue no prazo e dentro do orçamento. Recomendo de olhos
+                  fechados para quem busca qualidade e bom gosto.
+                </p>
+                <div class="testimonial-author">
+                  <img
+                    src="https://i.pravatar.cc/150?img=13"
+                    alt="Cliente"
+                    class="author-image"
+                  />
+                  <div class="author-info">
+                    <h4>Ricardo Mendes</h4>
+                    <p>Apartamento Jardins</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-card">
+              <div class="testimonial-stars">★★★★★</div>
+              <div class="testimonial-content">
+                <p class="testimonial-text">
+                  Transformaram nosso escritório em um espaço incrível! A
+                  produtividade da equipe aumentou e recebemos elogios de todos
+                  os clientes que nos visitam. Valeu cada centavo!
+                </p>
+                <div class="testimonial-author">
+                  <img
+                    src="https://i.pravatar.cc/150?img=32"
+                    alt="Cliente"
+                    class="author-image"
+                  />
+                  <div class="author-info">
+                    <h4>Paula Costa</h4>
+                    <p>Escritório Corporativo</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slider-dots" id="sliderDots">
+            <span class="slider-dot active" data-slide="0"></span>
+            <span class="slider-dot" data-slide="1"></span>
+            <span class="slider-dot" data-slide="2"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contato">
+      <div class="contact-container">
+        <div class="contact-info">
+          <h2>Vamos Conversar?</h2>
+          <p>
+            Estamos prontos para transformar seus sonhos em realidade. Entre em
+            contato e agende uma consultoria sem compromisso.
+          </p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <span><i class="bi bi-geo-alt"></i></span>
+              <div>
+                <strong>Endereço</strong><br />
+                Av. Paulista, 1234 - São Paulo, SP
+              </div>
+            </div>
+            <div class="contact-item">
+              <span><i class="bi bi-envelope"></i></span>
+              <div>
+                <strong>E-mail</strong><br />
+                contato@atelierluna.com.br
+              </div>
+            </div>
+            <div class="contact-item">
+              <span><i class="bi bi-phone"></i></span>
+              <div>
+                <strong>Telefone</strong><br />
+                (11) 98765-4321
+              </div>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form">
+          <input type="text" placeholder="Seu Nome" required />
+          <input type="email" placeholder="Seu E-mail" required />
+          <input type="tel" placeholder="Seu Telefone" required />
+          <textarea
+            placeholder="Conte-nos sobre seu projeto..."
+            required
+          ></textarea>
+          <button type="submit" class="submit-btn">ENVIAR MENSAGEM</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-about">
+          <h3>ATELIER LUNA</h3>
+          <p>
+            Transformando espaços em experiências únicas há mais de 15 anos.
+            Design de interiores que une elegância, funcionalidade e
+            personalidade.
+          </p>
+          <div class="social-links">
+            <a
+              href="https://instagram.com/fael.front"
+              aria-label="Instagram"
+              rel="noopener noreferrer"
+              target="_blank"
+              ><i class="bi bi-instagram"></i
+            ></a>
+            <a
+              href="https://linkedin.com/in/rafaelsfront"
+              aria-label="LinkedIn"
+              rel="noopener noreferrer"
+              target="_blank"
+              ><i class="bi bi-linkedin"></i
+            ></a>
+            <a
+              href="https://github.com/1faeell"
+              aria-label="GitHub"
+              rel="noopener noreferrer"
+              target="_blank"
+              ><i class="bi bi-github"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="footer-section">
+          <h4>Navegação</h4>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#sobre">Sobre Nós</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h4>Serviços</h4>
+          <ul class="footer-links">
+            <li><a href="#servicos">Consultoria</a></li>
+            <li><a href="#servicos">Projeto Completo</a></li>
+            <li><a href="#servicos">Decoração</a></li>
+            <li><a href="#servicos">Retrofit</a></li>
+            <li><a href="#servicos">Iluminação</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section footer-contact">
+          <h4>Contato</h4>
+          <p>📍 Av. Paulista, 1234<br />São Paulo, SP</p>
+          <p>📧 contato@atelierluna.com.br</p>
+          <p>📱 (11) 98765-4321</p>
+          <p>🕐 Seg - Sex: 9h às 18h</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>
+          &copy; 2025 Atelier Luna | Design de Interiores | Todos os direitos
+          reservados
+        </p>
+        <p style="margin-top: 1rem">
+          Desenvolvido por
+          <a
+            href="https://portfolio-fael.vercel.app"
+            rel="noopener noreferrer"
+            style="font-weight: bold; color: #ddba6e"
+            >Rafael S.</a
+          >
+        </p>
+      </div>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+    <script src="js/projects.js" defer></script>
+  </body>
+</html>
