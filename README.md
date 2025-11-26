@@ -32,8 +32,3 @@ Site profissional, moderno e totalmente responsivo desenvolvido para uma empresa
 ## 🖥 Preview
 <img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/28834de1-63da-44a2-bece-ea9dea88b753" />
 
-
-
-
-
-**Feito com ❤️ e ☕ por Rafael S.**
